@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tokped</string>
+    <string name="ingin_makan_apa">Ingin makan apa?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="beranda">beranda</string>
+    <string name="keranjang">keranjang</string>
+    <string name="notif">notif</string>
+    <string name="akun">akun</string>
+</resources>
