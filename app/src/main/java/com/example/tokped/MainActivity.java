@@ -11,7 +11,6 @@ import android.view.MenuItem;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,7 +33,6 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         } else if (item.getItemId() == R.id.fr_akun) {
             fragment = new AccFragment();
         }
-
         return loadFragment(fragment);
     }
 
